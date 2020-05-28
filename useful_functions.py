@@ -17,7 +17,7 @@ def get_first_index_of_array(array):
     """
     this function is very usefull useful for returning the first index of array.
     """
-    return array[1]
+    return array[0]
 
 
 def print_but_louder(in_string):
@@ -32,3 +32,4 @@ def is_it_wednesday():
     if datetime.datetime.today().weekday() == 2:
         return True
     return False
+
